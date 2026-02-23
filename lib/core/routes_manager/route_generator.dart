@@ -8,6 +8,7 @@ import 'package:ecommerce_app/features/products_screen/presentation/screens/prod
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
+
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
 
