@@ -1,3 +1,5 @@
+import 'package:ecommerce_app/features/auth/domain/entities/user_entity.dart';
+
 import 'User.dart';
 
 class RegisterResponse {

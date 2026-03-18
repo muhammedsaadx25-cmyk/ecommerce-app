@@ -1,3 +1,5 @@
+import '../../domain/entities/user_entity.dart';
+
 class User {
   User({
       this.name, 
@@ -20,5 +22,7 @@ class User {
     map['role'] = role;
     return map;
   }
+  UserEntity toUserEntity()=> UserEntity(name: name, email: email, role: role);
+
 
 }
